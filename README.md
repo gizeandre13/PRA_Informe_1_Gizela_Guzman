@@ -18,7 +18,7 @@ Link de descarga: [https://www.isprs.org/resources/datasets/benchmarks/UrbanSemL
 
 ## 💻 Notebook
 
-Notebook Jupyter con el código fuente del proyecto, que inclye la carga de datos, preprocesamiento, entrenamiento SegNet, evaluación y generación de resultados.
+Notebook Jupyter con el código fuente del proyecto, que inculye la carga de datos, preprocesamiento, entrenamiento SegNet, evaluación y generación de resultados.
 
 ## ⚙️ Utilidades
 
