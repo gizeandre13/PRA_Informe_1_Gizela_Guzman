@@ -2,9 +2,9 @@
 
 Se presenta una implementación en PyTorch de una red totalmente convolucional para la segmentación semántica de imágenes aéreas, utilizando la arquitectura SegNet, donde se busca evaluar el desempeño de esta red neuronal basada en una estructura simétrica de codificador–decodificador, la primera parte (codificador) comprime la información de la imagen, mientras que la segunda parte (decodificador) la reconstruye para producir el mapa segmentado.
 
-## 🗺️ Conjunto de datos
+## 📁 Conjunto de datos
 
-**ISPRS Vaihingen**: ortofotos **IRRG** (9 cm GSD). Clases (ISPRS): 
+**ISPRS Vaihingen**: ortofotos **IRRG** (9 cm GSD)
 
 Clases (ISPRS):  
 🛣️ **Carreteras**
@@ -16,19 +16,25 @@ Clases (ISPRS):
 
 Link de descarga: [https://www.isprs.org/resources/datasets/benchmarks/UrbanSemLab/Default.aspx]
 
-## ⚙️ Notebook
+## 💻 Notebook
+
+Notebook Jupyter con el código fuente del proyecto, que inclye la carga de datos, preprocesamiento, entrenamiento SegNet, evaluación y generación de resultados.
 
 ## ⚙️ Utilidades
 
-Este notebook requiere algunas bibliotecas útiles, como t`torch`, `scikit-image`, `numpy` y `matplotlib`. Las cuales se instalalan por medio de pip install -r requirements.txt.
+Este notebook requiere algunas bibliotecas útiles, como `torch`, `scikit-image`, `numpy` y `matplotlib`. Las cuales se instalalan por medio de pip install -r requirements.txt.
 
 Se adjunta archivo de texto que contiene la lista de librerías necesarias junto con sus versiones compatibles, optimizadas para Python 3.10.0.
+
+## 🧠 Modelo
+
+Se adjunta el archivo .pt del modelo SegNet entrenado sobre el dataset ISPRS Vaihingen, listo para inferencia y evaluación.
 
 ## 📝 Documentos
 
 Se incluye un reporte en formato de artículo que describe la implementación, entrenamiento y evaluación de la arquitectura SegNet.
 
-## 📊 Resultados 
+## 🗺️ Resultados 
 
 Se incluyen cuatro mosaicos resultantes del proceso de inferencia realizado con el modelo entrenado sobre la arquitectura SegNet.
 
